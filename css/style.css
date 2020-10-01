@@ -1,0 +1,76 @@
+
+               /* S𝗼𝗿𝗿𝘆 𝗳𝗼𝗿 𝘀𝗼𝗺𝗲 𝗿𝗲𝗮𝘀𝗼𝗻 𝗶 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝘂𝘀𝗲 𝗖𝘀𝘀 𝗥𝗲𝘀𝘁 𝗮𝗻𝗱 𝘆𝗲𝗮𝗵 𝗶 𝘂𝘀𝗲𝗱
+                  𝘁𝗵𝗲 𝘄𝟯𝘀𝗰𝗵𝗼𝗼𝗹 𝗹𝗶𝗯𝗿𝗮𝗿𝘆 𝗳𝗼𝗿 𝗹𝗮𝘆𝗼𝘂𝘁𝘀 𝗯𝘂𝘁 i 𝗮𝗹𝘀𝗼 𝘂𝘀𝗲𝗱 𝗖𝘀𝘀 𝗴𝗿𝗶𝗱 𝘁𝗼𝗼❤️️ */
+
+
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}/* Font */
+/*________________________________________________________________________________________________________  */
+body, html {height: 100%; line-height: 1.8;}
+body{margin: 0 !important;}
+/*________________________________________________________________________________________________________  */
+.w3-bar .w3-button {padding: 16px;}
+/*________________________________________________________________________________________________________  */
+.img-slider{width: 100%;}
+.title1 , .title2 , .title3{text-shadow: 3px 3px 3px #462ecc;}
+.logo{ color: #000; font-size: 15px; text-shadow: #df0000 3px 3px 3px 2px; transition: 0.3s;}
+.logo:hover{color: #462ecc;}    
+.logo2{font-size: 60px; transition: 0.5s; color: #462ecc;}
+.logo2:hover{font-size: 80px;}
+/*________________________________________________________________________________________________________  */
+i:hover{text-shadow: 0 0 40px #df0056;}
+/*________________________________________________________________________________________________________  */
+.father{ display: grid; padding: 2rem; grid-column: 1 / 4;/* M */
+         grid-gap: 2rem; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+         grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+                         /* auto-fit */ }
+/*________________________________________________________________________________________________________  */        
+.productImg{ width: 400px ; height: 300px ; border-radius: 15px;}
+/*________________________________________________________________________________________________________  */
+.buyH2{      color: #000000; background-color: #462ecc; text-shadow:  #000000 2px 2px 1px;
+             border-radius: 30px; text-transform: uppercase; overflow: hidden; transition: 0.3s;}
+.buyH2:hover{ color:#ff0000; background-color: #00df30;
+              box-shadow: 0 0 10px #00df30, 0 0 20px #00df30, 0 0 40px #00df30;}
+/*________________________________________________________________________________________________________  */
+.divCard{ box-shadow: 0 4px 8px 0 #462ecc; max-width: 400px; margin: auto;
+          text-align: center; border-radius: 15px; transition: all ease-in-out 0.5s 0.5s;}
+.divCard:hover{ box-shadow: 0 0 1px #df0000, 0 0 2px #2100df, 0 0 3px #df00d4; font-size: 20px;}
+/*________________________________________________________________________________________________________  */
+input{ border-radius: 20px; box-shadow: #df0000 3px 3px 3px;}
+/*________________________________________________________________________________________________________  */
+::-webkit-scrollbar { width: 15px;}   /* 𝙎𝙘𝙧𝙤𝙡𝙡𝙗𝙖𝙧 𝙘𝙤𝙡𝙤𝙧 𝙖𝙣𝙙 𝙨𝙩𝙪𝙛𝙛 */
+::-webkit-scrollbar-track { box-shadow: inset 0 0 5px #817f7f; border-radius: 5%;}
+::-webkit-scrollbar-thumb { background:#462ecc; border-radius: 10px;}
+::-webkit-scrollbar-thumb:hover { background: #000000;}
+/*________________________________________________________________________________________________________  */
+footer{background-image: url(../img/back.jpg); background-size: cover; filter: grayscale(100%);}
+footer:hover{ filter: grayscale(0);}
+/*________________________________________________________________________________________________________  */
+/*________________________________________________________________________________________________________  */
+/*________________________________________________________________________________________________________  */
+
+
+
+                                        /* 𝑯𝒐𝒗𝒆𝒓 𝒂𝒏𝒊𝒎𝒂𝒕𝒊𝒐𝒏 */
+
+/* 🅷🆅🆁-🅱🆄🆉🆉 */
+@-webkit-keyframes hvr-buzz {50%{-webkit-transform: translateX(3px) rotate(2deg);transform: translateX(3px) rotate(2deg);}    100% {-webkit-transform: translateX(-3px) rotate(-2deg);transform: translateX(-3px) rotate(-2deg);}}@keyframes hvr-buzz {50% {-webkit-transform: translateX(3px) rotate(2deg);transform: translateX(3px) rotate(2deg);}100% {-webkit-transform: translateX(-3px) rotate(-2deg);transform: translateX(-3px) rotate(-2deg);}  }
+.hvr-buzz {display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {-webkit-animation-name: hvr-buzz;animation-name: hvr-buzz;-webkit-animation-duration: 0.15s;animation-duration: 0.15s;-webkit-animation-timing-function: linear;animation-timing-function: linear;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;}
+/*________________________________________________________________________________________________________  */
+
+/* 🅷🆅🆁-🆁🅾🆃🅰🆃🅴 */
+.hvr-rotate { display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;transition-property: transform;}
+.hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {-webkit-transform: rotate(4deg);transform: rotate(4deg); }
+/*________________________________________________________________________________________________________  */
+
+/* 🅷🆅🆁-🅵🅻🅾🅰🆃 */
+.hvr-float {display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;transition-property: transform;-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out;}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {-webkit-transform: translateY(-8px);transform: translateY(-8px); }
+/*________________________________________________________________________________________________________  */
+  /* 🅷🆅🆁-🅶🆁🅾🆆 */
+.hvr-grow { display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;transition-property: transform;}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {-webkit-transform: scale(1.1);transform: scale(1.1);}
+

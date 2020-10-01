@@ -1,0 +1,465 @@
+
+                                  <!--💜ɪɴ ᴛʜᴇ ɴᴀᴍᴇ ᴏғ ᴜɴɪǫᴜᴇ ɢᴏᴅ💜-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<title>Sport Cars</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--🆆3🆂🅲🅷🅾🅾🅻 🅻🅸🅱🆁🅰🆁🆈-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"><!--🅵🅾🅽🆃🆂 🅶🅾🅾🅶🅻🅴🅰🅿🅸🆂-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- 🅵🅾🅽🆃 🅰🆆🅴🆂🅾🅼🅴  -->
+<link rel="stylesheet" href="../css/style.css"><!--🅼🆈 🅲🆂🆂-->
+<script src="../js/javascript.js"></script><!--🅼🆈 🅹🆂-->
+<script src="../js/jquery-3.3.1.min.js"></script><!--🅹🆀🆄🅴🆁🆈-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"><!--🆂🅻🅸🅳🅴🆁-->
+<link rel="stylesheet" href="../css/Hover-master/css/hover.css"><!--🅷🅾🆅🅴🆁 🅼🅰🆂🆃🅴🆁 🅻🅸🅱🆁🅰🆁🆈-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--🅰🅹🅰🆇-->
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script><!--🆂🅻🅸🅳🅴🆁-->
+
+
+<body>
+
+
+    <!--navbarTop💜-->
+    <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+    
+      <a href="#home" class="w3-bar-item w3-button w3-wide"><span class="logo "></span>𝕾𝖕𝖔𝖗𝖙 𝖈𝖆𝖗𝖘️</span></a>
+    <!--right Sided Navbar💜-->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user "></i> درباره ما</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th "></i>محصولات</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope "></i> تماس با ما</a>
+    </div>
+
+    <!--responsiv Nav Icon💜-->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+   <!-- Sidebar Menu Icon💜-->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">بستن ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">درباره ما</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">محصولات</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">تماس با ما</a>
+</nav>
+
+   <!-- header and Slider💜-->
+   <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+
+    <div class="bxslider">
+        <div><img class="img-slider" src="../img/14.jpg" title="Super sport"></div>
+        <div><img class="img-slider" src="../img/13.jpg" title="Maclaren"></div>
+        <div><img class="img-slider" src="../img/15.jpg" title="proche"></div>
+      </div>
+   <script>
+
+
+//<!--🆂🆃🅰🆁🆃-->
+
+$('.bxslider').bxSlider({
+auto: true,
+autoControls: true,
+stopAutoOnClick: true,
+pager: true,
+slideWidth: 10000  //𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩!
+});
+
+var myImg = document.querySelector('.img-slider'); //𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩!
+myImg.style.height = window.innerHeight + 'px';
+
+window.addEventListener('resize' , function(){
+myImg.style.height = window.innerHeight + 'px';})
+
+//🅵🅸🅽🅸🆂🅷
+</script>
+
+
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small hvr-rotate title1">ماشین خوب میخوای؟</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium hvr-rotate title3">بزن بریم ماشین بخریم</span><br>
+    <span class="w3-large hvr-rotate title2">خوب جایی اومدی</span>
+    
+  </div> 
+  <!-- header Icon💛-->
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- aboutUs💛-->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3  class="w3-center logo2">️𝕾𝖕𝖔𝖗𝖙 𝖈𝖆𝖗𝖘️️</h3>
+  <p class="w3-center w3-large">❤️️️در باره ما❤️</p>
+  <div class="w3-row-padding w3-center " style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large"> ارسال سریع </p>
+      <p>ارسال محصولات در کمتر از 48 ساعت</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">رضایت مشتری</p>
+      <p>بیش از 20 سال سابقه کاری و رضایت مشتری</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">طراحی فوق العاده</p>
+      <p>دارای جدید ترین محصولات با طراحی فوق العاده</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">خدمات پس از فروش</p>
+      <p>تا 2 سال بعد از تحویل محصول</p>
+    </div>
+  </div>
+</div>
+
+
+<!--Products💚-->
+<div id="work" class="w3-container father " style="padding:128px 16px" id="team">
+  <h3 class="w3-center hvr-buzz">لیست محصولات</h3>
+  <form class="w3-center w3-large">
+ <input class="inputt" placeholder="search something..." type="search">
+ <input class="buttonn hvr-buzz" type="submit" value="search">
+
+  </form>
+  
+</div>
+
+    <script>
+      
+                                        
+                                           //𝙖𝙧𝙧𝙖𝙮 𝙤𝙛 𝙤𝙗𝙟𝙚𝙘𝙩𝙨
+
+      //<!--🆂🆃🅰🆁🆃-->                                     
+      var product = 
+      [
+        {img:src="../img/-Audi-A1-Amplified.jpg" ,
+        title: "Audi A1 Amplified",
+        title2: "200K$",
+        title3: "خرید"},
+        
+        {img:src="../img/ford mustang 2020.jpg" ,
+        title: "Ford Mustang 2020",
+        title2: "400k$",
+        title3: "خرید"},
+        
+        {img:src="../img/Dodge Challenger Mopar Drag Pak.jpg" ,
+        title: "Dodge Challenger Mopar Drag Pak",
+            title2: "200k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Donkervoort D8 GTO-JD70.jpg" ,
+            title: "Donkervoort D8 GTO JD70",
+            title2: "94k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Toyota-S-FR-Racing.jpg" ,
+            title: "Toyota S FR Racing",
+            title2: "100k$",
+            title3: "خرید"},
+            {img:src="../img/Kia Stinger GTS.jpg" ,
+            title: "Kia Stinger GTS",
+            title2: "200k$",
+            title3: "خرید"},
+            
+            {img:src="../img/BMW Z4 M40i.jpg" ,
+            title: "BMW Z4 M40i",
+            title2: "800k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Hennessey Venom F5.jpg" ,
+            title: "Hennessey Venom F5",
+            title2: "1M$",
+            title3: "خرید"},
+            
+            {img:src="../img/Fiat 124 GT Abarth.jpg" ,
+            title: "Fiat 124 GT Abarth",
+            title2: "20k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Ferrari Enzo.jpg" ,
+            title: "Ferrari Enzo",
+            title2: "500k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Land Rover Defender.jpg" ,
+            title: "Land Rover Defender",
+            title2: "100k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Toyota Yaris GRMN.jpg" ,
+            title: "Toyota Yaris GRMN",
+            title2: "90k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Lotus-Evija.jpg" ,
+            title: "Lotus-Evija",
+            title2: "50k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Hyundai i30 N Project C.jpg" ,
+            title: "Hyundai i30 N Project C",
+            title2: "80k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Maserati GranTurismo MC.jpg" ,
+            title: "Maserati GranTurismo MC",
+            title2: "1M$",
+            title3: "خرید"},
+            
+            {img:src="../img/Honda civic type R.jpg" ,
+            title: "Honda civic type R",
+            title2: "300k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Jaguar F-type.jpg" ,
+            title: "Jaguar F type",
+            title2: "100k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Pogea Racing 4C Centurion.jpg" ,
+            title: "Pogea Racing 4C-Centurion",
+            title2: "200K$",
+            title3: "خرید"},
+            
+            {img:src="../img/Ferrari 812 GTS.jpg" ,
+            title: "Ferrari 812 GTS",
+            title2: "1.3M$",
+            title3: "خرید"},
+            
+            {img:src="../img/Koenigsegg Gemera.jpg" ,
+            title: "Koenigsegg Gemera",
+            title2: "1.9M$",
+            title3: "خرید"},
+            
+            {img:src="../img/Lexus LFA Nurburgring Edition.jpg" ,
+            title: "Lexus LFA Nurburgring Edition",
+            title2: "1M$",
+            title3: "خرید"},
+            
+            {img:src="../img/BMW Z4 M40i.jpg" ,
+            title: "BMW Z4 M40i",
+            title2: "2M$",
+            title3: "خرید"},
+            
+            {img:src="../img/Chevrolet Camaro RS.jpg" ,
+            title: "Chevrolet Camaro RS",
+            title2: "900k$",
+            title3: "خرید"},
+            
+            {img:src="../img/SSC Ultimate Aero.jpg" ,
+            title: "SSC Ultimate Aero",
+            title2: "1M$",
+            title3: "ناموجود"},
+            
+            {img:src="../img/Maserati GranTurismo MC.jpg" ,
+            title: "Maserati GranTurismo MC",
+            title2: "2M$",
+            title3: "ناموجود"},
+            
+            {img:src="../img/McLaren Senna.jpg" ,
+            title: "McLaren Senna",
+            title2: "3M$",
+            title3: "خرید"},
+            
+            {img:src="../img/Alfa Romeo MiTo GTA.jpg" ,
+            title: "Alfa Romeo MiTo GTA",
+            title2: "500k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Alfa Romeo 2000 Sportiva.jpg" ,
+            title: "Alfa Romeo 2000 Sportiva",
+            title2: "900k$",
+            title3: "خرید"},
+            
+            {img:src="../img/Apollo Arrow.jpg" ,
+            title: "Apollo Arrow",
+            title2: "1.5M$",
+            title3: "خرید"},
+            
+            
+            
+            
+            
+            
+          ]
+
+
+
+
+                                        //💚𝐒𝐡𝐨𝐰 𝐢𝐭𝐞𝐦𝐬 𝐜𝐨𝐝𝐞💚
+
+
+                                           
+
+         
+          
+          //<!--🆂🆃🅰🆁🆃-->   
+          var maMainDiv = document.querySelector('.father')
+          
+          for(var i = 0 ; i <= product.length ; i++ ){
+            
+                                    
+
+var div0 = document.createElement('div')
+var imgTag = document.createElement('img');
+var h3Tag = document.createElement('h3');
+var pTag = document.createElement('p');
+var h2Tag = document.createElement('h2');
+ 
+ div0.className = 'divCard'
+ imgTag.className = 'productImg'
+ h3Tag.className = 'productH3'
+ pTag.className = 'productP'
+ h2Tag.className = 'buyH2'
+
+
+
+imgTag.setAttribute('src',product[i].img)
+h3Tag.innerHTML = product[i].title;
+pTag.innerHTML = product[i].title2; 
+h2Tag.innerHTML = product[i].title3; 
+
+div0.appendChild(imgTag)
+div0.appendChild(h3Tag)
+div0.appendChild(pTag)
+div0.appendChild(h2Tag)
+maMainDiv.appendChild(div0)
+                 
+}
+//🅵🅸🅽🅸🆂🅷
+
+
+                                      //⛔️𝘀𝗲𝗮𝗿𝗰𝗵 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺⛔️
+
+
+//<!--🆂🆃🅰🆁🆃-->   
+var maInput = document.querySelector('.inputt')         
+
+var myInput = maInput.innerHTML = maInput.Value          
+
+var result = myResult( users , myInput)
+           
+          function searchResult(array , word) {
+              var sResult = [];
+              for(var i = 0; i<array.length ;i++){
+                if(array[i].includes(word))
+                 myResult.push(array[i]);
+              }
+
+              return myResult
+
+          }
+//🅵🅸🅽🅸🆂🅷
+    </script>
+
+
+<br><br><br><br><br><br><br>
+
+
+<!-- aboutUs2❤️-->
+<div  class= " animation w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge hvr-rotate">100+</span>
+    <br>کارگر
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge hvr-rotate">1k+</span>
+    <br>ماشین فروخته شده
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge hvr-rotate">10k+</span>
+    <br>مشتری راضی
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge hvr-rotate">100k+</span>
+    <br>بازدید روزانه
+  </div>
+</div>
+
+
+
+
+<!-- ContactUS❤️-->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">تماس با ما</h3>
+  <p class=" w3-center w3-large ">❤️️مشاوره بگرین❤️️</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> ایران, مازندران</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> شماره تماس: 09114435576</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="نام" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="ایمیل" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="موضوع" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="پیام" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> پیام بفرستین
+        </button>
+      </p>
+    </form>
+    
+  </div>
+</div>
+
+<!--❤Footer❤-->
+<footer class="w3-center w3-black w3-padding-64">
+  <a  href="#home" class="w3-button w3-light-grey hvr-grow"><i class="fa fa-arrow-up w3-margin-right"></i>برو بالا</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  
+</footer>
+ 
+<script>
+// Modal Image Gallery⚠️
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// clicking Menu Icon Code⚠️
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// close  Sidebar Button⚠️
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

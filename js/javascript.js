@@ -1,0 +1,1 @@
+//Almost all JS codes have to be under the HTMl codes 【💙ｓｏｒｒｙ💙】
